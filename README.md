@@ -4,7 +4,7 @@ Room toimii sovelluksen paikallisena tietokantakerroksena ja mahdollistaa datan 
 
 Arkkitehtuuri etenee seuraavasti:
 
-###1️ Entity
+### 1️ Entity
 
 Määrittelee tietokantataulun rakenteen.
 TaskEntity vastaa yhtä riviä tasks-taulussa.
