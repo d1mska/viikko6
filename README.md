@@ -9,7 +9,7 @@ Arkkitehtuuri etenee seuraavasti:
 Määrittelee tietokantataulun rakenteen.
 TaskEntity vastaa yhtä riviä tasks-taulussa.
 
-###2 DAO (Data Access Object)
+### 2 DAO (Data Access Object)
 
 **Sisältää tietokantakyselyt:**
 
@@ -21,7 +21,7 @@ TaskEntity vastaa yhtä riviä tasks-taulussa.
 
  - Poista tehtävä
 
-###3 Database
+### 3 Database
 
 AppDatabase yhdistää:
 
@@ -39,7 +39,7 @@ Flow<List<TaskEntity>>
 
 suspend-funktiot CRUD-toimintoihin
 
-###5 ViewModel
+### 5 ViewModel
 
 Kerää Flow-datan
 
@@ -47,7 +47,7 @@ Kapseloi sovelluslogiikan
 
 Käsittelee lisäys-, muokkaus- ja poistotoiminnot
 
-###6 UI (Jetpack Compose)
+### 6 UI (Jetpack Compose)
 
 Näyttää datan
 
@@ -61,6 +61,7 @@ Kutsuu ViewModelin funktioita
 
 **Datan haku**
 Room Database
+
     ->
 DAO
     ->
@@ -73,6 +74,7 @@ UI (collectAsState)
 Kun tietokanta muuttuu, Flow lähettää uuden datan automaattisesti UI:lle.
 
  **Datan lisäys / päivitys / poisto**
+ 
 UI
     ->
 ViewModel
