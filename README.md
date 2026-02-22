@@ -60,8 +60,8 @@ Kutsuu ViewModelin funktioita
 
 
 **Datan haku**
-Room Database
 
+Room Database
     ->
 DAO
     ->
